@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Arial;
+	background-color: #3498DB;
+	margin: 0; 
+	padding: 50px;
+	}
+
+.container {
+	margin: 10px auto;
+	width: 350px;
+}
+.form-signin {
+	background-color: #FFF;
+	padding: 20%;
+	border-radius: 5px;
+	}
+
+.form-signin h2 {
+	font-size: 1.8em;
+	text-align:center;
+	color: #777;
+}
+
+.form-group{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+input {
+	text-align: center;
+	background-color: #ECF0F1;
+	border: 2px solid transparent;
+	border-radius: 3px;
+	font-size: 16px;
+	font-weight: 200;
+	padding: 10px 0;
+	width: 200px;
+	transition: border .5s;
+}
+
+input:focus {
+	border: 1px solid #3498DB;
+}
+
+.submit {
+	border: 2px solid transparent;
+	background: #3498DB;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	border-radius: 3px;
+	transition: 0.25s;
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.submit:hover {
+	background-color: #2980B9;
+}
+p {
+	text-align: center;
+	font-size: 14px;
+	color: #444;
+	display: block;
+}
+
+.opret_login {
+	text-align: center;
+	font-size: 14px;
+	color: #444;
+	display: block;
+}
